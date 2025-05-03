@@ -1,0 +1,40 @@
+/* Reset styles for overlay */
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  overflow: hidden;
+}
+
+/* Hide scrollbars */
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Overlay specific styles */
+.overlay-window {
+  width: 100vw;
+  height: 100vh;
+  background: transparent !important;
+  color: white;
+}
+
+/* Overlay button styles */
+.overlay-button {
+  background: rgba(0, 0, 0, 0.3) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-radius: 4px !important;
+  color: white !important;
+  padding: 4px 8px !important;
+  font-size: 12px !important;
+  cursor: pointer !important;
+  opacity: 0.3;
+  transition: opacity 0.2s;
+  pointer-events: auto !important;
+  -webkit-app-region: no-drag !important;
+} 

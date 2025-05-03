@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "outDir": "dist-electron",
+    "rootDir": ".",
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": false
+  },
+  "include": ["electron"]
+} 
